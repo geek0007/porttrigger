@@ -2,11 +2,11 @@
 
 usage(){
 
- echo "port_trigger trig_rule_no trigger_port fwd_port"
- echo  "Example (port): port_trigger 1 6565 8585"
- echo  "Example (port range): port_trigger 2 6565-6570 8585-8590"
- echo  "Example (port range): port_trigger 2 6565-6570 8585"
- echo  "Example (port range): port_trigger 2 6565  8585-8590"
+ echo "porttrigger trig_rule_no trigger_port fwd_port"
+ echo  "Example (port): porttrigger 1 6565 8585"
+ echo  "Example (port range): porttrigger 2 6565-6570 8585-8590"
+ echo  "Example (port range): porttrigger 2 6565-6570 8585"
+ echo  "Example (port range): porttrigger 2 6565  8585-8590"
 
 }
 
